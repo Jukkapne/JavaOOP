@@ -7,7 +7,7 @@ class Auto extends Ajoneuvo {
 
     public Auto(String nimi, String merkki) {
         super(nimi); // Kutsuu yliluokan konstruktoria
-        this.merkki = merkki;
+        this.merkki = merkkilll;
         autojenMaara++; // Kasvattaa auto-olioiden määrää
     }
 
